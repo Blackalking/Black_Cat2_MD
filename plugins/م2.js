@@ -99,7 +99,7 @@ let str = `مرحبا بك/ي معاك/ي 𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇
         conn.reply(m.chat, '[❗خطاء❗]', m)
     }
 }
-handler.command = /^(اوامر|mwnu|الاوامر|مهام|المهام)$/i
+handler.command = /^(2اوامر2|م2|الاوامر2|مهام2|المهام)$/i
 handler.exp = 20
 handler.fail = null
 export default handler
