@@ -1,4 +1,4 @@
-# `𝑺𝐴𝑅𝐴-𝐵𝛩𝑇` 
+# `𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇` 
 
 # `مرحبا بك في بلاك بوت اول بوت واتساب عربي` 
 <p align="center">
@@ -6,9 +6,9 @@
 </p>
 
 ------------------
-> **ملاحظة**: أنا "LIGHT"، تقاعدت من كل ما يتعلق بالبوت أو المواضيع المشابهة، لذا في مرحلة ما سيصبح قديمًا و/أو ستتوقف بعض الأوامر عن العمل.  أنا أقدر تفضيلك خلال الرحلة عبر عالم الروبوتات هذا.
+> **ملاحظة**: أنا "𝐁𝐋𝐀𝐂𝐊"، تقاعدت من كل ما يتعلق بالبوت أو المواضيع المشابهة، لذا في مرحلة ما سيصبح قديمًا و/أو ستتوقف بعض الأوامر عن العمل.  أنا أقدر تفضيلك خلال الرحلة عبر عالم الروبوتات هذا.
 
-> *𝑺𝐴𝑅𝐴-𝐵𝛩𝑇* يتم ترك الأمر في أيدي المتعاونين، وباعتباره الممثل الرئيسي 
+> *𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇* يتم ترك الأمر في أيدي المتعاونين، وباعتباره الممثل الرئيسي 
 ------------------
 
 > اللغه الرئيسيه التي اشتغل عليها المطور هي *العربيه*
@@ -30,20 +30,9 @@
  ### `▢رقم المطور الرسمي (نشط)`
 
 
-<a href="https://api.whatsapp.com/send/?phone=201280244814&text=/estado&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/BOT_OFICIAL_1_(نشط)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://api.whatsapp.com/send/?phone=212778668371&text=/estado&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/BOT_OFICIAL_1_(نشط)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
-<a href="https://api.whatsapp.com/send/?phone=201159106301&text=/estado&type=phone_number&app_absent=0" target="blank"><img src="[https://img.shields.io/badge/BOT_OFICIAL_2_(نشط)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white](https://telegra.ph/file/bda9ed97f962db2e7f154.jpg)" />
-
-### `▢يوتيوب المطور الرسمي (نشط)`
-
-<a href="http://www.youtube.com/@HARLEY_247">
-<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
-</a>
-
-### `▢يوتيوب المطور الرسمي (نشط)`
-<a href="http://www.youtube.com/@HARLEY_247">
-<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
-</a>
+<a href="https://api.whatsapp.com/send/?phone=994402385495&text=/estado&type=phone_number&app_absent=0" target="blank"><img src="[https://img.shields.io/badge/BOT_OFICIAL_2_(نشط)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white](https://telegra.ph/file/bda9ed97f962db2e7f154.jpg)" />
 
 
 ### `▢ المكونات الإضافية`
