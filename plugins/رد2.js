@@ -50,11 +50,11 @@ let handler = m => m;
      responses = [ 
 'طنط عامله اكل اى انهارده🌚♥️'
      ]; 
-   } else if (/^بارد$/i.test(m.text)) { 
+   } else if (/^رخم$/i.test(m.text)) { 
      responses = [ 
 '*عارف متزهقنيش🌚*'
      ]; 
-     }else if (/^🌚|😉|🥹$/i.test(m.text)) { 
+     }else if (/^😘$/i.test(m.text)) { 
      responses = [ 
        '😘',  
 
