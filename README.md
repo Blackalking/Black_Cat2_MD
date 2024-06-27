@@ -2,7 +2,7 @@
 
 # `مرحبا بك في بلاك بوت اول بوت واتساب عربي` 
 <p align="center">
-<img src="https://telegra.ph/file/2e035afe2fb8ccfd353c6.jpg" alt="⁨𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩" width="900"/>
+<img src="https://telegra.ph/file/35d3ae1e43a0492a503d1.jpg" alt="⁨𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩" width="900"/>
 </p>
 
 ------------------
