@@ -1558,7 +1558,7 @@ const aa = {
                     'title': '*[ ⚠ ] معلومه مهمه*',
                     'body': '⁨𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩',
                     'thumbnail': imagen1,
-                    'sourceUrl': 'https://www.atom.bio/harley_light'
+                    'sourceUrl': 'https://whatsapp.com/channel/0029VacWb364dTnEKmVWd628'
                 }
             }
         }
