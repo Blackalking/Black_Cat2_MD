@@ -7,21 +7,21 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
-global.botnumber = "*『👑𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇👑』*"
+global.botnumber = "*『👑𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇👑』*"
 global.confirmCode = ""
 
-global.owner = [['201203024198','𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇', true],
+global.owner = [['201203024198','𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇', true],
 ];
 
 global.suittag = ['201203024198'];
 global.prems = ['201203024198'];
 
-global.packname = '𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇⁩';
-global.author = '👑𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇👑';
-global.wm = '👑𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇👑';
-global.titulowm = '☾︎ 👑𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇👑 ☽︎';
-global.titulowm2 = `☾︎ 👑𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇👑 ☽︎`
-global.igfg = '☾︎ 👑𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇👑 ☽︎';
+global.packname = '𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇⁩';
+global.author = '👑𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇👑';
+global.wm = '👑𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇👑';
+global.titulowm = '☾︎ 👑𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇👑 ☽︎';
+global.titulowm2 = `☾︎ 👑𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇👑 ☽︎`
+global.igfg = '☾︎ 👑𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇👑 ☽︎';
 global.wait = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
