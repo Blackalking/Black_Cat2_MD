@@ -42,11 +42,11 @@ global.mes = d.toLocaleDateString('ar', {month: 'long'});
 global.año = d.toLocaleDateString('ar', {year: 'numeric'});
 global.tiempo = d.toLocaleString('ar-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\n☾︎ 👑𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇👑 ☽︎`;
-global.gt = '☾︎ 👑𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇👑 ☽︎';
-global.mysticbot = '☾︎ 👑𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇👑 ☽︎';
+global.wm2 = `${dia} ${fecha}\n☾︎ 👑𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇👑 ☽︎`;
+global.gt = '☾︎ 👑𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇👑 ☽︎';
+global.mysticbot = '☾︎ 👑𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇👑 ☽︎';
 global.md = 'https://chat.whatsapp.com/H93YpO0LkJNHoTmtIhcL1z';
-global.mysticbot = 'atom.bio/har𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇';
+global.mysticbot = 'atom.bio/har𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇';
 global.waitt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇*';
 global.waittt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇*';
 global.waitttt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇*';
