@@ -7,22 +7,22 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
-global.botnumber = "*『👑𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇👑』*"
+global.botnumber = "*『👑𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇👑』*"
 global.confirmCode = ""
 
-global.owner = [['212778668371', '𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇', true],
+global.owner = [['201203024198','𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇', true],
 ];
 
-global.suittag = ['994402385495'];
-global.prems = ['994402385495'];
+global.suittag = ['201203024198'];
+global.prems = ['201203024198'];
 
-global.packname = '𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇';
-global.author = '👑𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇👑';
-global.wm = '👑𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇👑';
-global.titulowm = '☾︎ 👑𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇👑 ☽︎';
-global.titulowm2 = `☾︎ 👑𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇👑 ☽︎`
-global.igfg = '☾︎ 👑𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇👑 ☽︎';
-global.wait = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*https://whatsapp.com/channel/0029VacWb364dTnEKmVWd628*';
+global.packname = '𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇⁩';
+global.author = '👑𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇👑';
+global.wm = '👑𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇👑';
+global.titulowm = '☾︎ 👑𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇👑 ☽︎';
+global.titulowm2 = `☾︎ 👑𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇👑 ☽︎`
+global.igfg = '☾︎ 👑𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇👑 ☽︎';
+global.wait = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
@@ -42,15 +42,15 @@ global.mes = d.toLocaleDateString('ar', {month: 'long'});
 global.año = d.toLocaleDateString('ar', {year: 'numeric'});
 global.tiempo = d.toLocaleString('ar-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\n☾︎ 👑𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇👑 ☽︎`;
-global.gt = '☾︎ 👑𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇👑 ☽︎';
-global.mysticbot = '☾︎ 👑𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇👑 ☽︎';
+global.wm2 = `${dia} ${fecha}\n☾︎ 👑𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇👑 ☽︎`;
+global.gt = '☾︎ 👑𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇👑 ☽︎';
+global.mysticbot = '☾︎ 👑𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇👑 ☽︎';
 global.md = 'https://chat.whatsapp.com/H93YpO0LkJNHoTmtIhcL1z';
-global.mysticbot = 'atom.bio/harley_light';
-global.waitt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
-global.waittt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
-global.waitttt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
-global.nomorown = '994402385495';
+global.mysticbot = 'atom.bio/har𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇';
+global.waitt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇*';
+global.waittt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇*';
+global.waitttt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇*';
+global.nomorown = '201203024198';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
