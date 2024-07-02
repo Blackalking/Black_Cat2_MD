@@ -13,8 +13,8 @@ global.confirmCode = ""
 global.owner = [['212778668371','𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇', true],
 ];
 
-global.suittag = ['201203024198'];
-global.prems = ['201203024198'];
+global.suittag = ['994402385495'];
+global.prems = ['994402385495'];
 
 global.packname = '𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇⁩';
 global.author = '👑𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇👑';
