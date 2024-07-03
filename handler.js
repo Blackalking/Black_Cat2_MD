@@ -1556,7 +1556,7 @@ const aa = {
             'contextInfo': {
                 'externalAdReply': {
                     'title': '*[ ⚠ ] معلومه مهمه*',
-                    'body': '⁨𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇ᥬ🌚᭄',
+                    'body': '𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇',
                     'thumbnail': imagen1,
                     'sourceUrl': 'https://whatsapp.com/channel/0029VacWb364dTnEKmVWd628'
                 }
