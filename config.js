@@ -22,7 +22,7 @@ global.wm = '👑𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇👑';
 global.titulowm = '☾︎ 👑𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇👑 ☽︎';
 global.titulowm2 = `☾︎ 👑𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇👑 ☽︎`
 global.igfg = '☾︎ 👑𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇👑 ☽︎';
-global.wait = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
+global.wait = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*https://whatsapp.com/channel/0029VacWb364dTnEKmVWd628*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
