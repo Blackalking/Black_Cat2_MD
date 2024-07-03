@@ -7,21 +7,21 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
-global.botnumber = "*『👑𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇👑』*"
+global.botnumber = "*『👑𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇👑』*"
 global.confirmCode = ""
 
-global.owner = [['212778668371','𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇', true],
+global.owner = [['201280244814', '𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩', true],
 ];
 
-global.suittag = ['212778668371'];
-global.prems = ['212778668371'];
+global.suittag = ['201280244814'];
+global.prems = ['201280244814'];
 
-global.packname = '𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇⁩';
-global.author = '👑𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇👑';
-global.wm = '👑𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇👑';
-global.titulowm = '☾︎ 👑𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇👑 ☽︎';
-global.titulowm2 = `☾︎ 👑𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇👑 ☽︎`
-global.igfg = '☾︎ 👑𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇👑 ☽︎';
+global.packname = '𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩';
+global.author = '👑𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇👑';
+global.wm = '👑𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇👑';
+global.titulowm = '☾︎ 👑𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇👑 ☽︎';
+global.titulowm2 = `☾︎ 👑𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇👑 ☽︎`
+global.igfg = '☾︎ 👑𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇👑 ☽︎';
 global.wait = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -42,15 +42,15 @@ global.mes = d.toLocaleDateString('ar', {month: 'long'});
 global.año = d.toLocaleDateString('ar', {year: 'numeric'});
 global.tiempo = d.toLocaleString('ar-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\n☾︎ 👑𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇👑 ☽︎`;
-global.gt = '☾︎ 👑𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇👑 ☽︎';
-global.mysticbot = '☾︎ 👑𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇👑 ☽︎';
+global.wm2 = `${dia} ${fecha}\n☾︎ 👑𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇👑 ☽︎`;
+global.gt = '☾︎ 👑𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇👑 ☽︎';
+global.mysticbot = '☾︎ 👑𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇👑 ☽︎';
 global.md = 'https://chat.whatsapp.com/H93YpO0LkJNHoTmtIhcL1z';
-global.mysticbot = 'atom.bio/har𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇';
-global.waitt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇*';
-global.waittt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇*';
-global.waitttt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇*';
-global.nomorown = '212778668371';
+global.mysticbot = 'atom.bio/harley_light';
+global.waitt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
+global.waittt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
+global.waitttt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
+global.nomorown = '201280244814';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
