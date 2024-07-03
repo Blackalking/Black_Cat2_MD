@@ -13,8 +13,8 @@ global.confirmCode = ""
 global.owner = [['212778668371','𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇', true],
 ];
 
-global.suittag = ['994402385495'];
-global.prems = ['994402385495'];
+global.suittag = ['212778668371'];
+global.prems = ['212778668371'];
 
 global.packname = '𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇⁩';
 global.author = '👑𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇👑';
@@ -50,7 +50,7 @@ global.mysticbot = 'atom.bio/har𝐁𝐋𝐀𝐂𝐊_𝐵𝛩𝑇';
 global.waitt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇*';
 global.waittt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇*';
 global.waitttt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/𝐸𝐿𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌_𝐵𝛩𝑇*';
-global.nomorown = '994402385495';
+global.nomorown = '212778668371';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
