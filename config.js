@@ -42,7 +42,7 @@ global.mes = d.toLocaleDateString('ar', {month: 'long'});
 global.año = d.toLocaleDateString('ar', {year: 'numeric'});
 global.tiempo = d.toLocaleString('ar-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\n☾︎ 👑𝑺𝐴𝑅𝐴-𝐵𝛩𝑇👑 ☽︎`;
+global.wm2 = `${dia} ${fecha}\n☾︎ 👑𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇👑 ☽︎`;
 global.gt = '☾︎ 👑𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇👑 ☽︎';
 global.mysticbot = '☾︎ 👑𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇👑 ☽︎';
 global.md = 'https://whatsapp.com/channel/0029VacWb364dTnEKmVWd628';
