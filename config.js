@@ -10,13 +10,13 @@ import moment from 'moment-timezone';
 global.botnumber = "*『👑𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇👑』*"
 global.confirmCode = ""
 
-global.owner = [['201280244814', '𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩', true],
+global.owner = [['212778668371', '𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇', true],
 ];
 
-global.suittag = ['201280244814'];
-global.prems = ['201280244814'];
+global.suittag = ['212778668371'];
+global.prems = ['212778668371'];
 
-global.packname = '𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩';
+global.packname = '𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇';
 global.author = '👑𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇👑';
 global.wm = '👑𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇👑';
 global.titulowm = '☾︎ 👑𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇👑 ☽︎';
@@ -50,7 +50,7 @@ global.mysticbot = 'atom.bio/harley_light';
 global.waitt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
 global.waittt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
 global.waitttt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
-global.nomorown = '201280244814';
+global.nomorown = '212778668371';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
