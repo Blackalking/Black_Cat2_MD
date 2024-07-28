@@ -46,7 +46,7 @@ const messages = [[
 group, 
 '𝒁𝒆𝒛𝒐 𝑩𝒐𝒕',
 'https://telegra.ph/file/f4f9d2420ac2b1072eb2e.jpg',
-[['', '']],[],[['قناتي','https://whatsapp.com/channel/0029Vaflefp4Y9ljqmqllP3a']]
+[['', '']],[],[['قناتي','https://whatsapp.com/channel/0029VacWb364dTnEKmVWd628']]
 ], [
 tools, 
 '𝒁𝒆𝒛𝒐 𝑩𝒐𝒕',
