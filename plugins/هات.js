@@ -61,14 +61,14 @@ const handler = async (m, { command, usedPrefix, conn, text }) => {
       await conn.sendMessage(m.chat, { text: dataMessage }, { quoted: m });
     }
 
-    if (command === 'شغل') {
+    if (command === 'هات') {
       const messa = await prepareWAMessageMedia({ image: { url: data.resultado.image } }, { upload: conn.waUploadToServer });
       let msg = generateWAMessageFromContent(m.chat, {
         viewOnceMessage: {
           message: {
             interactiveMessage: {
               body: { text: dataMessage },
-              footer: { text: `𝐄𝐋_𝐃𝐄𝐒𝐎𝐊𝐄𝐈𝐘 𝐁𝐎𝐓 👑`.trim() },
+              footer: { text: `𝐵𝐿𝐴𝐶𝐾 𝐵𝛩𝑇 👑`.trim() },
               header: {
                 hasMediaAttachment: true,
                 imageMessage: messa.imageMessage,
