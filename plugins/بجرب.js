@@ -64,7 +64,12 @@ group,
 '𝐵𝐿𝐴𝐶𝐾 𝐵𝛩𝑇',
 'https://telegra.ph/file/f4f9d2420ac2b1072eb2e.jpg',
 [['', '']],[],[['قناتي','https://whatsapp.com/channel/0029VacWb364dTnEKmVWd628']]
-]]
+], [
+p2, 
+'𝐵𝐿𝐴𝐶𝐾 𝐵𝛩𝑇',
+'https://telegra.ph/file/f4f9d2420ac2b1072eb2e.jpg',
+[['', '']],[],[['قناتي','https://whatsapp.com/channel/0029VacWb364dTnEKmVWd628']]
+]] 
 await conn.sendCarousel(m.chat,`مرحبا ${m.pushName}`, 'هذه هيا قوائم البوت', `القائمه`, messages, m)            
 
 }
