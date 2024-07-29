@@ -68,17 +68,17 @@ const p2 = `⽗𓅓 ⋅ ───━ •﹝👑﹞• ━─── ⋅ 𓅓⽗
 const messages = [[ 
 tools, 
 '𝐵𝐿𝐴𝐶𝐾 𝐵𝛩𝑇',
-'https://telegra.ph/file/f4f9d2420ac2b1072eb2e.jpg',
+'https://telegra.ph/file/0fdcdc9bec8508976d5e9.jpg',
 [['', '']],[],[['قناتي','https://whatsapp.com/channel/0029VacWb364dTnEKmVWd628']]
 ], [
 group, 
 '𝐵𝐿𝐴𝐶𝐾 𝐵𝛩𝑇',
-'https://telegra.ph/file/f4f9d2420ac2b1072eb2e.jpg',
+'https://telegra.ph/file/0fdcdc9bec8508976d5e9.jpg',
 [['', '']],[],[['قناتي','https://whatsapp.com/channel/0029VacWb364dTnEKmVWd628']]
 ], [
 p2, 
 '𝐵𝐿𝐴𝐶𝐾 𝐵𝛩𝑇',
-'https://telegra.ph/file/f4f9d2420ac2b1072eb2e.jpg',
+'https://telegra.ph/file/0fdcdc9bec8508976d5e9.jpg',
 [['', '']],[],[['قناتي','https://whatsapp.com/channel/0029VacWb364dTnEKmVWd628']]
 ]] 
 await conn.sendCarousel(m.chat,`مرحبا ${m.pushName}`, 'هذه هيا قوائم البوت', `القائمه`, messages, m)            
