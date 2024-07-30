@@ -65,10 +65,10 @@ let handler  = async (m, { conn, args, usedPrefix, command }) => {
     global.conns.push(conn)
   } else throw '*「 🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈 」*\n\n*❰ ⚠️ ❱ No se puede hacer un bot dentro de un sub bot!*\n*✳️ Use el comando #jadibot al numero oficial/principal de GataBot*\n\n*👉 https://wa.me/' + global.conn.user.jid.split`@`[0] + '?text=#jadibot*\n\n*「 🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈 」*'
 }
-handler.help = ['jadibot']
+handler.help = ['ربط']
 handler.tags = ['jadibot']
 
-handler.command = /^serbot|jadibot|sersubbot|sersubot$/i
+handler.command = /^ربط$/i
 handler.prems = false
 handler.private = false
 
