@@ -1,5 +1,3 @@
-نص الملف الازرار.js:
-
 // @type {import('@whiskeysockets/baileys')}
 
 const { proto, generateWAMessage, areJidsSameUser, decryptPollVote, } = (await import('@whiskeysockets/baileys')).default;
@@ -89,4 +87,5 @@ messages: [proto.WebMessageInfo.fromObject(messages)].map((v) => (v.conn = this,
 type: 'append',
 }
 this.ev.emit('messages.upsert', msg)
-  }
+               }
+  
