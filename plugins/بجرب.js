@@ -81,7 +81,7 @@ p2,
 'https://telegra.ph/file/0fdcdc9bec8508976d5e9.jpg',
 [['', '']],[],[['قناتي','https://whatsapp.com/channel/0029VacWb364dTnEKmVWd628']]
 ]] 
-await conn.sendCarousel(m.chat,`مرحبا ${m.pushName}`, 'هذه هيا قوائم البوت', `القائمه`, messages, m)            
+await conn.sendCarousel(m.chat,`مرحبا ${m.pushName}`, 'هذه هيا قوائم البوت', `قــســم`, messages, m)            
 
 }
 handler.command = /^(ترو)$/i
