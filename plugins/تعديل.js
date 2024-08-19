@@ -20,7 +20,7 @@ let handler = async (m, { conn, usedPrefix, command, args }) => {
         return await handler(m, { conn, usedPrefix, command: selectedCommand, args: args.slice(1) });
     } else {
         // تنفيذ الأوامر الفرعية
-        await processImage(m, conn, command, "Done by Bot Al Soltan ...");
+        await processImage(m, conn, command, "بݪآڪ بوت بنفسو يـرسݪ ...");
     }
 };
 
