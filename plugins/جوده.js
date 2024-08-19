@@ -19,7 +19,7 @@ const handler = async (m, {conn, usedPrefix, command}) => {
 
 handler.help = ["hd"]
 handler.tags = ["tools"]
-handler.command = ["hd", "ايديت", "جوده"]
+handler.command = ["ايديت"]
 //handler.register = true 
 handler.limit = 1
 
