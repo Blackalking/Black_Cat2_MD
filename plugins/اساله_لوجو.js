@@ -1,5 +1,5 @@
 import fetch from "node-fetch";
-let timeout = 6000,
+let timeout = 60000,
   poin = 4999;
 const handler = async (m, {
   conn,
