@@ -16,7 +16,7 @@ const handler = async (m, {
     },
     caption = `*${command.toUpperCase()}*\nمــا هــو اســم هــذا الشــعـــار\n\nالـوقـت⏳↞\n╯────────────────⟢ـ *${(timeout / 1000).toFixed(2)} ثانيه*\n\n𝐵𝐿𝐴𝐶𝐾 𝐵𝛩𝑇\n╯────────────────⟢ـ\n↞الـجـائـزة💰↞: ${poin} XP\n\n╯────────────────⟢ـ \n   `.trim();
   conn.tebaklogo[id] = [await conn.sendFile(m.chat, json.hasil.data.image, "", caption, m), json, poin, setTimeout(async () => {
-    conn.tebaklogo[id] && await conn.reply(m.chat, `انتهي الوقت\nالاجابه هيا: *${json.hasil.data.jawaban}*`, conn.tebaklogo[id][0]),
+    conn.tebaklogo[id] && await conn.reply(m.chat, `انــتــهــي الـوقـت⏳\nالاجــابــه هيا: *${json.hasil.data.jawaban}*`, conn.tebaklogo[id][0]),
       delete conn.tebaklogo[id];
   }, timeout)];
 };
