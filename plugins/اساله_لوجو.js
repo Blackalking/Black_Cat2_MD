@@ -8,7 +8,7 @@ const handler = async (m, {
 }) => {
   conn.tebaklogo = conn.tebaklogo ? conn.tebaklogo : {};
   let id = m.chat;
-  if (id in conn.tebaklogo) return await conn.reply(m.chat, "اجب ع هذا السؤال اولا", conn.tebaklogo[id][0]), !1;
+  if (id in conn.tebaklogo) return await conn.reply(m.chat, "╮───────────────────────╭ـ\nرد على سؤال الاول يا حبيب قلبى💎\n╯───────────────────────╰", conn.tebaklogo[id][0]), !1;
   let res = await fetch("https://raw.githubusercontent.com/zyad5yasser/bot-test/master/src/game/لوجو.json"),
     src = await res.json(),
     json = {
