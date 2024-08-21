@@ -8,7 +8,7 @@ export async function before(m) {
     if (/^((me)?nyerah|surr?ender|انسحب)$/i.test(m.text)) return clearTimeout(this.tebaklogo[id][3]),
       delete this.tebaklogo[id], await this.reply(m.chat, "*اجابه خاطئه جرب مجددا*", m);
     let json = JSON.parse(JSON.stringify(this.tebaklogo[id][1]));
-    m.text.toLowerCase() === json.hasil.data.jawaban.toLowerCase().trim() ? (db.data.users[m.sender].exp += this.tebaklogo[id][2], await this.reply(m.chat, `✅ *اجابه صحيحه*\n+${this.tebaklogo[id][2]} XP`, m), clearTimeout(this.tebaklogo[id][3]), delete this.tebaklogo[id]) : similarity(m.text.toLowerCase(), json.hasil.data.jawaban.toLowerCase().trim()) >= .72 ? m.reply("❗ *Dikit Lagi!*") : await this.reply(m.chat, ╮───────────────────────╭ "❌ *اجـــابــــه خــــاطـــــئـــه يا فـــــاشـــــل!* ╯───────────────────────╰", m);
+    m.text.toLowerCase() === json.hasil.data.jawaban.toLowerCase().trim() ? (db.data.users[m.sender].exp += this.tebaklogo[id][2], await this.reply(m.chat, `✅ *اجابه صحيحه*\n+${this.tebaklogo[id][2]} XP`, m), clearTimeout(this.tebaklogo[id][3]), delete this.tebaklogo[id]) : similarity(m.text.toLowerCase(), json.hasil.data.jawaban.toLowerCase().trim()) >= .72 ? m.reply("❗ *Dikit Lagi!*") : await this.reply(m.chat," ╮───────────────────────╭ ❌ *اجـــابــــه خــــاطـــــئـــه يا فـــــاشـــــل!* ╯───────────────────────╰", m);
   }
   return !0;
 }
