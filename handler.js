@@ -1532,48 +1532,56 @@ let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'nu
         console.error(e)
     }
 }
-
 global.dfail = (type, m, conn) => {
-  const msg = {
-        rowner: '*『 الميزه دي للمطور بس! 』*',
-        owner: '*『 الميزه دي للمطور بس يحب ! 』*',
-        mods: '*『 الميزه دي لمطور البوت بس ! 』*',
-        premium: '*『 الميزه دي للاعضاء المميزين بس ! 』*',
-        group: '*『 الميزه دي في الجروبات بس ! 』*',
-        private: '*『 الميزه دي للبرايفت - الخاص بس ! 』*',
-        admin: '*『 الميزه دي للادمن بس! 』*',
-        botAdmin: '*『 ارفع البوت ادمن الاول ! 』*',
-        unreg: '*[ لحظة !! انت مش مسجل ]*\n\n*『 سجل الامر عشان تفعله 』*\n*➣ #تسجيل*',
-        restrict: '*『 الميزه دي المطور لغيها ! 』*'
- } [type]
-const aa = {
-        'quoted': m,
-        'userJid': conn['user']['jid']
-    },
-    prep = generateWAMessageFromContent(m['chat'], {
-        'extendedTextMessage': {
-            'text': msg,
-            'contextInfo': {
-                'externalAdReply': {
-                    'title': '*[ ⚠ ] معلومه مهمه*',
-                    'body': '⁨𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩',
-                    'thumbnail': imagen1,
-                    'sourceUrl': 'https://www.atom.bio/harley_light'
-                }
-            }
+  const datas = global;
+  const idioma = datas.db.data.users[m.sender].language || 'ar';
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`));
+  const tradutor = _translate.handler.dfail;
+
+  const messages = {
+    rowner: '╮───────────────╭ـ\n│ *➣ الميزه دي للمطور بس! ┇🧞*\n╯───────────────╰ـ',
+    owner: '╮───────────────╭ـ\n│ *➣ الميزه دي للمطور بس! ┇🧞*\n╯───────────────╰ـ',
+    mods: '╮───────────────╭ـ\n│ *➣ الميزه دي لمالك البوت فقط! ┇🧞*\n╯───────────────╰ـ',
+    premium: '╮───────────────╭ـ\n│ *➣ الميزه دي للأعضاء المميزين فقط! ┇🧞*\n╯───────────────╰ـ',
+    group: '╮───────────────╭ـ\n│ *➣ الميزه دي في الجروبات فقط! ┇🧞*\n╯───────────────╰ـ',
+    private: '╮───────────────╭ـ\n│ *➣ الميزه دي في الخاص فقط! ┇🧞*\n╯───────────────╰ـ',
+    admin: '╮───────────────╭ـ\n│ *➣ الميزه دي للادمنز - المشرفين فقط! ┇🧞*\n╯───────────────╰ـ',
+    botAdmin: '╮───────────────╭ـ\n│ *➣ ارفع البوت ادمن الاول! ┇🧞*\n╯───────────────╰ـ',
+    unreg: '╮───────────────╭ـ\n│ *[ لحظة !! انت مش مسجل ]*\n│ *『 سجل الامر عشان تفعله 』*\n│ *➣ #تسجيل الاسم.السن\n│ *➣مثل : #تسجيل سوكونا.18\n╯───────────────╰ـ',
+    restrict: '╮───────────────╭ـ\n│ *➣ تم الغاء الأمر من قبل المطور! ┇🧞*\n╯───────────────╰ـ',
+  };
+
+  const msg = messages[type];
+  const img2 = 'https://telegra.ph/file/098c5133099eb3f0fbb54.jpg';
+
+  if (msg) {
+    return conn.sendMessage(m.chat, {
+      text: msg,
+      contextInfo: {
+        externalAdReply: {
+          showAdAttribution: true,
+          title: '[❗] تحذير',
+          body: '[❗] لا تعبث فيما لا يعنيك',
+          thumbnailUrl: img2,
+          mediaUrl: img2,
+          mediaType: 1,
+          sourceUrl: 'https://www.atom.bio/shawaza-2000/',
+          renderLargerThumbnail: true
         }
-    }, aa);
-if (msg) return conn['relayMessage'](m['chat'], prep['message'], {
-    'messageId': prep['key']['id']
-});
+      }
+    }, { quoted: m });
+  }
 };
+
+
+
 const file = global.__filename(import.meta.url, true);
 watchFile(file, async () => {
   unwatchFile(file);
   console.log(chalk.redBright('Update \'handler.js\''));
   if (global.reloadHandler) console.log(await global.reloadHandler());
 
-  if (global.conns && global.conns.length > 0 ) {
+  if (global.conns && global.conns.length > 0) {
     const users = [...new Set([...global.conns.filter((conn) => conn.user && conn.ws.socket && conn.ws.socket.readyState !== ws.CLOSED).map((conn) => conn)])];
     for (const userr of users) {
       userr.subreloadHandler(false)
