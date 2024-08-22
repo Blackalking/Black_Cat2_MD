@@ -222,7 +222,7 @@ let str = `مرحبا بك/ي معاك/ي 𝐁𝐋𝐀𝐂𝐊-𝐵𝛩𝑇
         conn.reply(m.chat, '[❗خطاء❗]', m)
     }
 }
-handler.command = /^(7اوامر7|م7|الاوامر7|مهام7|المهام)$/i
+handler.command = /^(8اوامر8|م8|الاوامر8|مهام8|المهام)$/i
 handler.exp = 20
 handler.fail = null
 export default handler
